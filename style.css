@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* mulai */
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color:black;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.menu{
+    font-size: 23px;
+}
+
+.header{
+    padding: 15px;
+}
+
+.header .judul {
+    margin: auto;
+    padding:3% ;
+    font-size: 40px;
+    font-weight: bold;  
+    text-align: center;
+}
+
+h1{
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    
+}
+.header a {
+    text-decoration: none;
+    color:red  ;
+    padding: 1px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+    
+}
+
+.menu{
+    padding: 0;
+    
+}
+
+.foto img {
+    width: 400px;
+    padding-left: 1%;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+.Fotomenu img {
+    float: right ;
+    padding-top: 10%;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 500px;
+    
+}
+
+ol li{
+list-style: decimal;
+list-style-position: inside;
+}
+
+.namaMenu {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.clear{
+    clear: both;
+}
+
+
+.back{
+    font-size: large;
+    text-align: center;
+    margin-top: 10%  ;
+    margin-left: 45%;
+    background-color: white;
+    height: fit-content;
+    width: fit-content  ;
+    padding: 20px;
+}
+
+.step{
+    font-size: 23px ;
+    line-height: 35px;
+}
+
+.fa {
+    padding: 30px 30px ;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 40%; 
+
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    float: right;
+    
+    
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    float: right;
+  }
+hr.new5 {
+    border: 5px solid green;
+    border-radius: 5px;
+  }  
+
+/* button social media */
